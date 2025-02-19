@@ -1,0 +1,13 @@
+database:
+  connection_string: 'postgresql://username:password@localhost:5432/vc_agent'
+
+typeform:
+  api_key: 'your_typeform_api_key_here'
+  form_id: 'your_form_id_here'
+
+proxycurl:
+  api_key: 'your_proxycurl_api_key_here'
+
+logging:
+  level: 'INFO'
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
